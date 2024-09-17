@@ -9,12 +9,12 @@ const MainPage = () => {
                 <NavBar />
                 <div className="flex flex-col justify-center items-center" style={{ height: 'calc(100vh - 60px)' }}>
                     <div>
-                        <h1 className="text-center text-white text-4xl md:text-5xl font-bold">
+                        <h1 className="text-center text-white text-3xl md:text-5xl font-bold">
                             Abadikan Momenmu
                         </h1>
                     </div>
                     <div className="text-center mt-3 px-20">
-                        <p className="text-white text-lg">
+                        <p className="text-white text-md md:text-lg">
                         Abadikan momen berharga bersama Niskala Studio, rasakan pengalaman istimewa, dan ciptakan kenangan tak terlupakan buat setiap detik jadi berarti 
                         </p>
                     </div>
