@@ -1,3 +1,4 @@
+import About from '@/components/About';
 import NavBar from '@/components/NavBar';
 import React from 'react'
 
@@ -5,7 +6,7 @@ const AboutPage = () => {
   return (
     <>
         <NavBar/>
-        About
+        <About/>
     </>
   )
 }

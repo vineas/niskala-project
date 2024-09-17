@@ -1,46 +1,34 @@
-import NavBar from "@/components/NavBar"
-import Image from 'next/image';
-import styles from '../../../src/components/About/About.module.css';
-import TeamFoto from '../../../src/assets/img/team.jpg';
-
 const About = () => {
-    return (
-        <>
-            {/* <div className={styles.container}>
-                <div className={styles.content}>
-                    <h1 className={styles.heading}>About</h1>
-                    <p className={styles.paragraph}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia earum asperiores fuga atque numquam sit nulla tempora, ex dicta similique illo aliquam? Excepturi quae blanditiis quisquam! Corrupti earum repudiandae laudantium iste, reprehenderit pariatur voluptatibus?
-                    </p>
-                </div>
-                <div className={styles.imageWrapper}>
-                    <Image
-                        src={TeamFoto}
-                        alt="Team"
-                        className={styles.image}
-                    />
-                </div>
-            </div> */}
-
-            <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-                <div className="md:flex">
-                    <div className="md:shrink-0">
-                        <Image
-                            src={TeamFoto}
-                            className="h-28 w-full object-cover md:h-full md:w-28"
-                            alt="Modern building architecture" 
-                        />
-                    </div>
-                    <div className="p-8">
-                        <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
-                        <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
-                        <p className="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
-                    </div>
-                </div>
+  return (
+    <>
+      <div id="about" className="md:px-6 lg:px-8 py-20">
+        <div className="w-11/12 md:container mx-auto px-14">
+          <div className="flex flex-col md:flex-row md:space-x-10">
+            <div className="content-center">
+              <h3 className="text-5xl font-bold mb-5 text-center md:text-justify">
+                About Niskala Studio
+              </h3>
+              <p className="mb-5 text-center md:text-justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+                iure sint totam temporibus quos cupiditate dolorum voluptates,
+                accusantium odio ipsum eos. Vitae quia assumenda nesciunt odio
+                libero esse quasi eveniet.
+              </p>
+              <p className="mb-5 pb-5 text-center md:text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                vel mollitia culpa repudiandae nostrum illum. Praesentium
+                possimus exercitationem rem, qui incidunt laudantium obcaecati
+                veritatis facilis.
+              </p>
             </div>
+            <div className="mx-auto md:w-1/3">
+              <img src="https://placehold.co/400x550" className="mb-10" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-        </>
-    )
-}
-
-export default About
+export default About;

@@ -9,7 +9,7 @@ const MainPage = () => {
                 <NavBar />
                 <div className="flex flex-col justify-center items-center" style={{ height: 'calc(100vh - 60px)' }}>
                     <div>
-                        <h1 className="text-center text-white text-5xl font-bold">
+                        <h1 className="text-center text-white text-4xl md:text-5xl font-bold">
                             Abadikan Momenmu
                         </h1>
                     </div>
