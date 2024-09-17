@@ -15,7 +15,7 @@ import logoNiskala from "../../../src/assets/img/logo/niskala-logo.png";
 const navigation = [
   { name: "About", href: "/about", current: true },
   { name: "Portofolio", href: "/portofolio", current: false },
-  { name: "Contact Us", href: "contact", current: false },
+  { name: "Contact Us", href: "https://www.instagram.com/niskalastudios.id/", current: false },
 ];
 
 const NavBar = () => {
