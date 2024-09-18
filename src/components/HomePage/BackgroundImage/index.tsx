@@ -28,10 +28,11 @@ const MainPage = () => {
               className="bg-white hover:bg-gray-400 text-black font-bold py-2 px-16 border-b-4 border-black hover:border-black rounded-full"
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href = "https://www.instagram.com/niskalastudios.id/";
+                window.location.href =
+                  "https://www.instagram.com/niskalastudios.id/";
               }}
             >
-              Free Konsultasi
+              Free Consult
             </button>
           </div>
         </div>
