@@ -5,7 +5,7 @@ const About = () => {
         <div className="w-11/12 md:container mx-auto px-14">
           <div className="flex flex-col md:flex-row md:space-x-10">
             <div className="content-center">
-              <h3 className="text-5xl font-bold mb-5 text-center md:text-justify">
+              <h3 className="text-3xl md:text-5xl font-bold mb-5 text-center md:text-justify">
                 About Niskala Studio
               </h3>
               <p className="mb-5 text-center md:text-justify">

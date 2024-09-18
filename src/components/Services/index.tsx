@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div id="services" className="bg-gray-200 py-20">
       <div className="w-11/12 md:container mx-auto px-14">
-        <h3 className="text-5xl font-bold text-center mb-2">Our Services</h3>
+        <h3 className="text-3xl md:text-5xl font-bold text-center mb-2">Our Services</h3>
         <p className="text-gray-500 text-center mb-7">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
           inventore illum autem ex!
