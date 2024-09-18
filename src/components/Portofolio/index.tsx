@@ -2,6 +2,9 @@ import Link from 'next/link'
 import React from 'react'
 import portofolioData from '../../data/data.json'
 import { motion } from "framer-motion"
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
+
 
 
 const Portofolio = () => {
@@ -17,11 +20,11 @@ const Portofolio = () => {
                         className='shadow-2xl rounded-xl' 
                         key={index}
                         whileHover={{ scale: 1.1 }} 
-                        whileTap={{ scale: 0.9 }} 
-                        transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                        // whileTap={{ scale: 0.9 }} 
+                        transition={{ type: "spring", stiffness: 300, damping: 17 }}
                     >
                         <Link href={item.link}>
-                            <img src={item.image} alt={item.title} className='rounded-t-lg w-full'/>
+                            <img src={item.image || <Skeleton count={3}/>} alt={item.title || <Skeleton count={3} />} className='rounded-t-lg w-full'/>
                             <div className='py-3 px-5'>
                                 <h4 className='text-center font-bold'>{item.title}</h4>
                             </div>
