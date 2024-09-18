@@ -13,14 +13,20 @@ const Portofolio = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-4 w-11/12 md:container mx-auto gap-8'>
                 {portofolioData.map((item, index) => (
-                    <div className='shadow-2xl rounded-xl' key={index}>
+                    <motion.div 
+                        className='shadow-2xl rounded-xl' 
+                        key={index}
+                        whileHover={{ scale: 1.1 }} 
+                        whileTap={{ scale: 0.9 }} 
+                        transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                    >
                         <Link href={item.link}>
                             <img src={item.image} alt={item.title} className='rounded-t-lg w-full'/>
                             <div className='py-3 px-5'>
                                 <h4 className='text-center font-bold'>{item.title}</h4>
                             </div>
                         </Link>
-                    </div>
+                    </motion.div>
                 ))}
             </div>
         </div>
