@@ -23,7 +23,7 @@ const Footer = () => {
               </Link>
               </li>
               <li>
-                <a href="https://www.instagram.com/niskalastudios.id/" className="hover:underline">
+                <a href="https://linktr.ee/niskalastudios?fbclid=PAZXh0bgNhZW0CMTEAAaapdJY6A5w0HzV8HEEMcrktCnLUDkUyIaa0DIv2oMuaQgDlhMp5iYusASg_aem_c0AJibpAkuBGTZ5MVAMVbQ" className="hover:underline">
                   Contact
                 </a>
               </li>

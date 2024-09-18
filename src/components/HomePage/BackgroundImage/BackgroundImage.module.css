@@ -1,8 +1,8 @@
 .background {
-    position: relative; /* Penting untuk positioning pseudo-element */
+    position: relative;
     height: 100vh;
     width: 100%;
-    overflow: hidden; /* Pastikan pseudo-element tidak keluar dari kontainer */
+    overflow: hidden;
 }
 
 .background::before {
@@ -15,9 +15,9 @@
     background-image: url('../../../assets/img/fotograper.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     filter: brightness(37%);
     z-index: -1;
-    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
 
 }

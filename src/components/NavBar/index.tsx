@@ -15,7 +15,7 @@ import logoNiskala from "../../../src/assets/img/logo/niskala-logo.png";
 const navigation = [
   { name: "About", href: "/about", current: true },
   { name: "Portofolio", href: "/portofolio", current: false },
-  { name: "Contact Us", href: "https://www.instagram.com/niskalastudios.id/", current: false },
+  { name: "Contact Us", href: "https://linktr.ee/niskalastudios?fbclid=PAZXh0bgNhZW0CMTEAAaapdJY6A5w0HzV8HEEMcrktCnLUDkUyIaa0DIv2oMuaQgDlhMp5iYusASg_aem_c0AJibpAkuBGTZ5MVAMVbQ", current: false },
 ];
 
 const NavBar = () => {
