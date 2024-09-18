@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import NiskalaTeam from '../../assets/img/niskala-team.jpg';
+
 const About = () => {
   return (
     <>
@@ -22,7 +25,7 @@ const About = () => {
               </p>
             </div>
             <div className="mx-auto md:w-1/3">
-              <img src="https://placehold.co/400x550" className="mb-10" />
+              <Image src={NiskalaTeam} className="mb-10" alt='niskala-photo'/>
             </div>
           </div>
         </div>
