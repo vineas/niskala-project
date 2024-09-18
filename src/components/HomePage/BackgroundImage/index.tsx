@@ -25,7 +25,7 @@ const MainPage = () => {
           </div>
           <div className="text-center mt-5 px-20">
             <button
-              className="bg-white hover:bg-gray-400 text-black font-bold py-2 px-16 border-b-4 border-black hover:border-black rounded-full"
+              className="bg-white hover:bg-gray-400 text-black font-bold py-2 px-9 md:px-16 border-b-4 border-black hover:border-black rounded-full"
               onClick={(e) => {
                 e.preventDefault();
                 window.location.href =
