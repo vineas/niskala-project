@@ -25,7 +25,7 @@ const About = () => {
               </p>
             </div>
             <div className="mx-auto md:w-1/3">
-              <Image src={NiskalaTeam} className="mb-10" alt='niskala-photo'/>
+              <Image src={NiskalaTeam} className=" rounded-lg mb-10" alt='niskala-photo'/>
             </div>
           </div>
         </div>
