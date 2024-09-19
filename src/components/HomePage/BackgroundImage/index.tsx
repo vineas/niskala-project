@@ -1,5 +1,4 @@
 import NavBar from "@/components/NavBar";
-import Image from "next/image";
 import styles from "./BackgroundImage.module.css";
 
 const MainPage = () => {

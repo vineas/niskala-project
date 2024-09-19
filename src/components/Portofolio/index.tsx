@@ -1,8 +1,7 @@
-import Link from 'next/link'
 import React from 'react'
 import portofolioData from '../../data/data.json'
 import { motion } from "framer-motion"
-import Skeleton from 'react-loading-skeleton'
+import Link from 'next/link'
 import 'react-loading-skeleton/dist/skeleton.css'
 
 
@@ -15,7 +14,10 @@ const Portofolio = () => {
                 <p className='text-gray-500 text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, veritatis.</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-4 w-11/12 md:container mx-auto gap-8'>
-                {portofolioData.map((item, index) => (
+                {portofolioData
+                .slice()
+                .reverse()
+                .map((item, index) => (
                     <motion.div 
                         className='shadow-2xl rounded-xl' 
                         key={index}
