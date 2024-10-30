@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logoNiskala from "../../../src/assets/img/logo/niskala-logo.png";
+import Tiktok from "../../../src/assets/img/logo/tiktok.png";
+import Instagram from "../../../src/assets/img/logo/instagram.png";
 
 const Footer = () => {
   return (
@@ -18,16 +20,35 @@ const Footer = () => {
             </Link>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <li>
-              <Link href="/about" className="hover:underline me-4 md:me-6">
+                <Link href="/about" className="hover:underline me-4 md:me-6">
                   About
-              </Link>
+                </Link>
               </li>
               <li>
-                <a href="https://linktr.ee/niskalastudios?fbclid=PAZXh0bgNhZW0CMTEAAaapdJY6A5w0HzV8HEEMcrktCnLUDkUyIaa0DIv2oMuaQgDlhMp5iYusASg_aem_c0AJibpAkuBGTZ5MVAMVbQ" className="hover:underline">
+                <a
+                  href="https://linktr.ee/niskalastudios?fbclid=PAZXh0bgNhZW0CMTEAAaapdJY6A5w0HzV8HEEMcrktCnLUDkUyIaa0DIv2oMuaQgDlhMp5iYusASg_aem_c0AJibpAkuBGTZ5MVAMVbQ"
+                  className="hover:underline"
+                >
                   Contact
                 </a>
               </li>
             </ul>
+          </div>
+          <div className="sm:flex sm:justify-between sm:items-center">
+            <div>
+            </div>
+            <div className="flex">
+              <Link href="https://www.tiktok.com/@niskalastudios">
+                <Image src={Tiktok} alt="Tiktok" className="p-3 h-16 w-auto" />
+              </Link>
+              <Link href="https://www.instagram.com/niskalastudios.id/">
+                <Image
+                  src={Instagram}
+                  alt="Instagram"
+                  className="p-2 h-16 w-auto"
+                />
+              </Link>
+            </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
